@@ -37,7 +37,7 @@ module.exports = {
         countDown: 5,
         role: 0,
         shortDescription: "Get random anime waifu images",
-        category: "ANIME & MEDIA",
+        category: "ANIME",
         guide: "{pn}"
     },
 

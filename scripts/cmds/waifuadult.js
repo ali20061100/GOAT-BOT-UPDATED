@@ -38,7 +38,7 @@ module.exports = {
     role: 0,
     shortDescription: "Get anime nsfw image",
     longDescription: "Fetch direct image from API and automatic unsent after 10 second",
-    category: "ANIME & MEDIA",
+    category: "NSFW",
     guide: "{pn}"
   },
 

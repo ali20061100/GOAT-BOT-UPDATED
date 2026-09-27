@@ -38,7 +38,7 @@ module.exports = {
     countDown: 10,
     role: 0,
     shortDescription: "Search and download TikTok videos with reply support",
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: "{pn} [query] or {pn} [query] -list"
   },
 

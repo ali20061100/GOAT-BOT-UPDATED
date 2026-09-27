@@ -37,7 +37,7 @@ module.exports = {
     countDown: 5,
     role: 0,
     shortDescription: "unblur any image",
-    category: "tools",
+    category: "IMAGE",
     guide: "{pn} [reply to image or paste url]"
   },
 

@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: "YouTube Audio/Video Downloader with fast stream response",
     longDescription: "Search and download YouTube audio/video with fast streaming support",
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: {
       en: "{pn} -v <song name>\n{pn} -a <song name>\n{pn} <youtube link>"
     }
