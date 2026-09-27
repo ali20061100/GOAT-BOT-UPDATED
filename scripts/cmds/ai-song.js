@@ -43,7 +43,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate AI songs",
     longDescription: "Generate custom AI songs using a prompt and duration.",
-    category: "AI-MUSIC",
+    category: "MEDIA",
 
     guide: {
       en: `

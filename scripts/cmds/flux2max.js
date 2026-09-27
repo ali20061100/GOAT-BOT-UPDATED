@@ -43,7 +43,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Generate or edit images with Flux 2 Max" },
     longDescription: { en: "Text-to-image or image-edit generation using Flux 2 Max AI" },
-    category: "ai",
+    category: "AI",
     guide: {
       en:
         "   {pn} <prompt> → generate image (default 1:1)\n" +

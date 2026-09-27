@@ -36,7 +36,7 @@ module.exports = {
     version: "5.5",
     author: "xalman",
     description: "Random Matching Couple DP with auto-retry and list system",
-    category: "FUN & SOCIAL",
+    category: "LOVE",
     cooldown: 5,
     guide: {
       en: "   {pn} - Get a random matching couple DP\n   {pn} list - Show total number of available couple DPs"

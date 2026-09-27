@@ -42,7 +42,7 @@ module.exports = {
     role: 0,
     shortDescription: "Premium 21-Image Canvas Grid",
     longDescription: "Search images and get a high-quality 3x7 grid using Canvas.",
-    category: "tools",
+    category: "IMAGE",
     guide: { en: "{p}google <query>" }
   },
 

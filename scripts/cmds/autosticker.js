@@ -8,7 +8,7 @@ module.exports = {
     countDown: 5,
     role: 0,
     description: "Send a random sticker with cooldown. Reply-stickers are ignored.",
-    category: "no prefix",
+    category: "IMAGE",
     guide: ""
   },
 

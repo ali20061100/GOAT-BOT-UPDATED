@@ -19,7 +19,7 @@ module.exports = {
     role: 1,
     shortDescription: { en: "Auto react to messages in group" },
     longDescription: { en: "Auto react to specific words in messages" },
-    category: "group",
+    category: "BOX CHAT",
     guide: {
       en: "{pn} on/off - Toggle auto react"
     }

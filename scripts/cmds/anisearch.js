@@ -38,7 +38,7 @@ module.exports = {
     countDown: 3,
     role: 0,
     description: "Search and get Anime TikTok videos",
-    category: "ANIME & MEDIA",
+    category: "ANIME",
     guide: "{pn} <anime name>"
   },
 

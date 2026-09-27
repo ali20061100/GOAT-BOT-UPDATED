@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: "AI Image Upscaler",
     longDescription: "Reply to any image using the command and get 4k results",
-    category: "tools",
+    category: "IMAGE",
     guide: "{pn} reply to an image"
   },
 

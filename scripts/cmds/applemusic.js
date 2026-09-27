@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Search and download Apple Music songs" },
     longDescription: { en: "Search for a song on Apple Music and download it directly" },
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: { en: "{pn} <song name>\nExample: /applemusic Happy Nation" }
   },
 

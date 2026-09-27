@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate image using DALL-E 3",
     longDescription: "Generate an image using the DALL-E 3 AI model",
-    category: "AI & IMAGE GENERATION",
+    category: "AI",
     guide: "{pn} <prompt>\nExample: /dalle cat in space"
   },
 

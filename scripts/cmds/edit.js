@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: "AI Image Editor",
     longDescription: "Edit any image using AI by replying to it with a specific prompt.",
-    category: "AI & IMAGE GENERATION",
+    category: "AI",
     guide: "{pn} [reply to image] [prompt]"
   },
 

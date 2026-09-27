@@ -38,7 +38,7 @@ module.exports = {
         countDown: 5,
         role: 0,
         shortDescription: "Get random Blue Archive images or check list",
-        category: "ANIME & MEDIA",
+        category: "ANIME",
         guide: "{pn} or {pn} list"
     },
 

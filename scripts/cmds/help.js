@@ -48,7 +48,7 @@ module.exports = {
         role: 0,
         shortDescription: { en: "View command usage" },
         longDescription: { en: "View command usage" },
-        category: "info",
+        category: "SYSTEM",
         guide: { en: "{pn} [page | command name]" },
         priority: 1
     },

@@ -38,7 +38,7 @@ module.exports = {
         role: 0,
         shortDescription: "Chat with AI (Supports Reply)",
         longDescription: "Conversational AI that remembers context via replies.",
-        category: "AI & IMAGE GENERATION",
+        category: "AI",
         guide: "{pn} [your question]"
     },
 

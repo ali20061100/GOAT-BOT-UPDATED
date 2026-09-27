@@ -40,7 +40,7 @@ module.exports = {
     countDown: 5,
     role: 0,
     shortDescription: "AI Image Generator",
-    category: "AI & IMAGE GENERATION"
+    category: "AI"
   },
 
   onStart: async function ({ message, args, event, api }) {

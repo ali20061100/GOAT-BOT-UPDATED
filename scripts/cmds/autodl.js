@@ -208,7 +208,7 @@ module.exports = {
     role: 0,
     shortDescription: "Multi-Platform Media Downloader up to 22+",
     longDescription: "Download video/audio from supported platforms.",
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: "{pn} <link> (or just send the link)"
   },
 

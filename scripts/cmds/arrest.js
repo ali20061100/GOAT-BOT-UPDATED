@@ -12,7 +12,7 @@ module.exports = {
 		role: 0,
 		shortDescription: "arret the rapist",
 		longDescription: "",
-		category: "image",
+		category: "FUN & SOCIAL",
 		guide:  {
 			vi: "{pn} [@tag]",
 			en: "{pn} [@tag]"
