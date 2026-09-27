@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Get a lyrics video from TikTok" },
     longDescription: { en: "Search for a song and get a lyrics video from TikTok" },
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: { en: "{pn} <query> \nExample: /lyricsvideo Happy Nation" }
   },
 

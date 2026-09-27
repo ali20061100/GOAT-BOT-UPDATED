@@ -40,7 +40,7 @@ module.exports = {
         role: 0,
         shortDescription: "Generate Premium AI Images",
         longDescription: "Generate high-quality detailed images",
-        category: "AI & IMAGE GENERATION",
+        category: "AI",
         guide: "{pn} [prompt]"
     },
 

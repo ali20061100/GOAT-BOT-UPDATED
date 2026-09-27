@@ -5,7 +5,7 @@ module.exports = {
     role: 2,
     author: "xalman",
     description: "Set bot nickname in all groups",
-    category: "admin",
+    category: "OWNER",
     guide: "{pn} <nickname>",
     countDown: 50
   },

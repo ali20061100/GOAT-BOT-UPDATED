@@ -7,7 +7,7 @@ module.exports = {
     role: 0,
     shortDescription: "Get 150+ Bangla/English pickuplines with emojis",
     longDescription: "Get random flirty lines with emojis.",
-    category: "FUN & SOCIAL",
+    category: "LOVE",
     guide: "{pn} bangla / {pn} english"
   },
 

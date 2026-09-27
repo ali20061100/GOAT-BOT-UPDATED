@@ -39,7 +39,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate images using Nano Banana AI",
     longDescription: "Generate high-quality images from text prompts using Xalman's Nano Banana API",
-    category: "AI & IMAGE GENERATION",
+    category: "AI",
     guide: "{pn} <prompt>"
   },
 

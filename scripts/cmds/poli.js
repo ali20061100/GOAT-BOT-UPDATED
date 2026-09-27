@@ -40,7 +40,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate AI image",
     longDescription: "Generate pollination ai image ",
-    category: "AI & IMAGE GENERATION",
+    category: "AI",
   },
 
   onStart: async function ({ message, args, api, event }) {

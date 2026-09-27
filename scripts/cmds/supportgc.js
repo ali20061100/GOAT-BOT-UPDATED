@@ -7,7 +7,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Join official support chat" },
     longDescription: { en: "Allows users to automatically join the bot's official support group." },
-    category: "general",
+    category: "BOX CHAT",
     guide: { en: "{pn}" }
   },
 

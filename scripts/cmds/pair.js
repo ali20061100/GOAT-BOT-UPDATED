@@ -24,7 +24,7 @@ module.exports = {
     role: 0,
     countDown: 5,
     shortDescription: "Romantic pair system with random background",
-    category: "FUN & SOCIAL"
+    category: "LOVE"
   },
 
   onStart: async function ({ api, event, usersData, args }) {

@@ -40,7 +40,7 @@ module.exports = {
     countDown: 5,
     role: 0,
     description: "Get a random meme video with auto-retry",
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: "{pn}"
   },
 

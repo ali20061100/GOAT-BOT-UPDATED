@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: "Search or download MP3",
     longDescription: "Search songs and download MP3 from YouTube",
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: "{p}sing <song name or YouTube link>"
   },
 

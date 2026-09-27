@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Identify song from audio/video" },
     longDescription: { en: "Use Shazam to identify a song from a replied audio or video file" },
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: { en: "{pn} [reply to any audio or video]" }
   },
 

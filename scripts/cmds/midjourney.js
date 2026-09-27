@@ -52,7 +52,7 @@ module.exports = {
     role: 0,
     shortDescription: "Generate 4 Midjourney AI images with grid preview",
     longDescription: "Generate 4 images, show grid, reply with number to select",
-    category: "AI & IMAGE GENERATION",
+    category: "AI",
     guide: "{pn} <prompt> [-<width:height>]\nExample: /mj cat -16:9\nSupported ratios: 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3"
   },
 

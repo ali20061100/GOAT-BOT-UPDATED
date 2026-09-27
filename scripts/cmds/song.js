@@ -43,7 +43,7 @@ module.exports = {
     longDescription: {
       en: "Fetches a matching song and sends the audio"
     },
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: {
       en: "{pn} <song name>"
     }

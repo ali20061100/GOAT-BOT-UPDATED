@@ -13,7 +13,7 @@ module.exports = {
  vi: "Bảng điều khiển cài đặt và quản lý bot",
  en: "Configuration and management panel for the bot"
  },
- category: "admin",
+ category: "SYSTEM",
  guide: {
  vi: "Gửi lệnh để xem bảng điều khiển",
  en: "Send command to view control panel"

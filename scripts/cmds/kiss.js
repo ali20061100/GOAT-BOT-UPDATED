@@ -11,7 +11,7 @@ module.exports = {
         countDown: 5,
         role: 0,
         description: "Kiss someone using mention, reply, or UID",
-        category: "FUN & SOCIAL",
+        category: "LOVE",
         guide: { en: "{p}{n} @mention | Reply to a message | {p}{n} [uid]" }
     },
 

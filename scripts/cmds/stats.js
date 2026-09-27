@@ -11,7 +11,7 @@ module.exports = {
     role: 0,
     shortDescription: "Shows total users, groups, uptime and system stats",
     longDescription: "Fetches total users, groups, uptime, and system information.",
-    category: "owner"
+    category: "SYSTEM"
   },
 
   onStart: async function({ api, event, args, usersData, threadsData, Threads }) {

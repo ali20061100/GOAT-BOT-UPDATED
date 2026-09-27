@@ -41,7 +41,7 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Search and download Spotify songs" },
     longDescription: { en: "Search for a song on Spotify and download it directly" },
-    category: "ANIME & MEDIA",
+    category: "MEDIA",
     guide: { en: "{pn} <song name>\nExample: /spotify Happy Nation" }
   },
 

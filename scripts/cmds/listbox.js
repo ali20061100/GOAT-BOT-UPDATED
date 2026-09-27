@@ -8,7 +8,7 @@ module.exports = {
     role: 2,
     shortDescription: { en: "List all groups with pagination and control options." },
     longDescription: { en: "List all group chats the bot is in with options to leave or join." },
-    category: "GROUP",
+    category: "BOX CHAT",
     guide: { en: "{p}{n} [page_number]" }
   },
 

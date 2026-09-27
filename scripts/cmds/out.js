@@ -8,7 +8,7 @@ module.exports = {
     role: 1,
     shortDescription: "Bot will leave group",
     longDescription: "",
-    category: "admin",
+    category: "BOX CHAT",
     guide: {
       vi: "{pn} [tid,blank]",
       en: "{pn} [tid,blank]"
