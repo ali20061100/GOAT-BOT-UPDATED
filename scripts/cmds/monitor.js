@@ -50,31 +50,45 @@ module.exports = {
       return message.reply("⚠️ Usage: monitor <name> <url>");
     }
 
-    if (!url.startsWith("http")) {
-      return message.reply("❌ Invalid URL!");
+    // startsWith("http") also lets "httpfoo" through — check it's a real http(s) URL.
+    if (!/^https?:\/\/.+/i.test(url)) {
+      return message.reply("❌ Invalid URL! It must start with http:// or https://");
     }
 
     try {
       api.setMessageReaction("⏳", event.messageID, () => {}, true);
 
-      const res = await axios.get(`${await getApiBaseUrl()}/api/monitor/add`, {
-        params: { name, url }
+      const baseUrl = await getApiBaseUrl();
+      const res = await axios.get(`${baseUrl}/api/monitor/add`, {
+        params: { name, url },
+        timeout: 15000
       });
 
-      if (res.data.status === true) {
+      if (res.data?.status === true) {
         api.setMessageReaction("✅", event.messageID, () => {}, true);
-        
+
         let msg = `✅ 𝗠𝗼𝗻𝗶𝘁𝗼𝗿 𝗔𝗱𝗱𝗲𝗱!\n━━━━━━━━━━━━━━━━━━\n👤 Name: ${name}\n🔗 URL: ${url}\n📝 Status: Success`;
 
         return message.reply(msg);
       } else {
         api.setMessageReaction("❌", event.messageID, () => {}, true);
-        return message.reply(`❌ Failed: ${res.data.message || "Rejected"}`);
+        return message.reply(`❌ Failed: ${res.data?.message || "Rejected"}`);
       }
 
     } catch (error) {
       api.setMessageReaction("⚠️", event.messageID, () => {}, true);
-      return message.reply("❌ API Server Error.");
+
+      // Log the real cause so this is actually debuggable, and surface the
+      // server's own error message/status when there is one instead of a
+      // generic line every time.
+      console.error("[monitor command] request failed:", error.message);
+      const serverMsg = error.response?.data?.message || error.response?.data?.error;
+      const statusCode = error.response?.status;
+
+      if (serverMsg) {
+        return message.reply(`❌ API Error${statusCode ? ` (${statusCode})` : ""}: ${serverMsg}`);
+      }
+      return message.reply(`❌ API Server Error: ${error.message}`);
     }
   }
 };
