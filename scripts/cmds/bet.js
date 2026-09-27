@@ -12,7 +12,7 @@ module.exports = {
     en: {
       invalid_amount: "❌ 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗔𝗠𝗢𝗨𝗡𝗧\n━━━━━━━━━━━━━━━━━━\n⚠️ Minimum bet: 1,000৳\n💡 Usage: /bet 100k | all",
       not_enough_money: "🚫 𝗜𝗡𝗦𝗨𝗙𝗙𝗜𝗖𝗜𝗘𝗡𝗧 𝗙𝗨𝗡𝗗𝗦\n━━━━━━━━━━━━━━━━━━\n💵 Balance: %1৳\n💸 You need more money to play!",
-      max_bet: "🛡️ 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 𝗔𝗟𝗘𝗥𝗧\n━━━━━━━━━━━━━━━━━━\n🚫 Max bet limit: 500M\n⚠️ High stakes blocked by system!",
+      max_bet: "🛡️ 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 𝗔𝗟𝗘𝗥𝗧\n━━━━━━━━━━━━━━━━━━\n🚫 Max bet limit: 10000T\n⚠️ High stakes blocked by system!",
       limit_reached: "🚫 𝗟𝗜𝗠𝗜𝗧 𝗥𝗘𝗔𝗖𝗛𝗘𝗗\n━━━━━━━━━━━━━━━━━━\n⚠️ You've played 50 times this hour.\n⏳ Try again in %1 minutes.",
       spinning: "🎰 𝗕𝗘𝗧𝗧𝗜𝗡𝗚 𝗠𝗔𝗖𝗛𝗜𝗡𝗘\n━━━━━━━━━━━━━━━━━━\n   [ 🔄 𝗦𝗣𝗜𝗡𝗡𝗜𝗡𝗚... 🔄 ]\n━━━━━━━━━━━━━━━━━━\n📡 Connecting to server...",
       win: "✨ 𝗪𝗜𝗡𝗡𝗘𝗥 𝗗𝗘𝗖𝗟𝗔𝗥𝗘𝗗 ✨\n━━━━━━━━━━━━━━━━━━\n💰 𝗦𝘁𝗮𝘁𝘂𝘀: SUCCESS\n📈 𝗠𝘂𝗹𝘁𝗶𝗽𝗹𝗶𝗲𝗿: %1×\n💵 𝗣𝗿𝗼𝗳𝗶𝘁: +%2৳\n💳 𝗡𝗲𝘄 𝗕𝗮𝗹𝗮𝗻𝗰𝗲: %3৳\n📊 𝗨𝘀𝗮𝗴𝗲: %4/50\n━━━━━━━━━━━━━━━━━━",
@@ -60,7 +60,7 @@ module.exports = {
     }
 
     const bet = parseAmount(cleanInput, balance);
-    const max_limit = 500000000;
+    const max_limit = 10000000000000000;
 
     if (bet === null || isNaN(bet) || bet < 1000) return message.reply(getLang("invalid_amount"));
     if (bet > max_limit) return message.reply(getLang("max_bet"));

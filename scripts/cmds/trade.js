@@ -49,7 +49,7 @@ module.exports = {
     const betAmount = parseAmount(args[0]);
     const prediction = args[1].toLowerCase();
     const minBet = 10;
-    const maxBet = 10e6;
+    const maxBet = 1e16;
 
     if (isNaN(betAmount) || betAmount < minBet) {
       return message.reply(`🎰 Minimum trade is $${formatMoney(minBet)}`);

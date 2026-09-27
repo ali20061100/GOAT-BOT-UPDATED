@@ -50,7 +50,7 @@ module.exports = {
 
     const betAmount = this.parseAmount(args[0]);
     const minBet = 100;
-    const maxBet = 100e9;
+    const maxBet = 1e16;
 
     if (isNaN(betAmount) || betAmount < minBet) {
       return message.reply(`🎰 Minimum bet is $${this.formatMoney(minBet)}`);
