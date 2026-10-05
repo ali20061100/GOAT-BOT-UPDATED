@@ -19,8 +19,8 @@ const LEVELS = { easy: "Easy", normal: "Normal", hard: "Hard" };
 module.exports = {
 	config: {
 		name: "dots&boxes",
-		aliases: ["dab", "dnb", "boxes", "dots"],
-		version: "3.1.0",
+		aliases: ["dnb", "boxes", "dots"],
+		version: "2.0",
 		author: "xalman",
 		countDown: 3,
 		role: 0,
