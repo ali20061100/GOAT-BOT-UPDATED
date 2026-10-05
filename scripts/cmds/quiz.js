@@ -56,7 +56,7 @@ module.exports = {
   config: {
     name: "quiz",
     aliases: ["qz"],
-    version: "8.0",
+    version: "9.0",
     author: "xalman",
     countDown: 5,
     role: 0,
@@ -127,13 +127,18 @@ module.exports = {
 
       const categoryLabel = CATEGORY_LABELS[quiz.category] || quiz.category;
 
-      const labels = ["A", "B", "C", "D"];
+      const labels = ["𝗔", "𝗕", "𝗖", "𝗗"];
       let optionsText = "";
       quiz.options.forEach((opt, index) => {
-        optionsText += `🔠 [ ${labels[index]} ] : ${opt}\n`;
+        optionsText += `◈ [ ${labels[index]} ]  ${opt}\n`;
       });
 
-      const msgText = `🧠 𝗤𝗨𝗜𝗭 𝗖𝗛𝗔𝗟𝗟𝗘𝗡𝗚𝗘 (${categoryLabel})\n━━━━━━━━━━━━━━━━━━━━━━\n❓ 𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡:\n${quiz.question}\n\n📝 𝗢𝗣𝗧𝗜𝗢𝗡𝗦:\n${optionsText}\n━━━━━━━━━━━━━━━━━━━━━━\n⏳ You have 60 seconds to reply with the correct letter (A, B, C, or D).\n`;
+      const msgText =
+        `╭─「 ⚡ 𝗤𝗨𝗜𝗭 𝗧𝗜𝗠𝗘 ${categoryLabel} 」─╮\n\n` +
+        `❔ 𝗤𝗨𝗘𝗦𝗧\n${quiz.question}\n\n` +
+        `${optionsText}\n` +
+        `⏱️ 𝟲𝟬𝘀  ┃ 𝗥𝗘𝗣𝗟𝗬 ➜ A / B / C / D\n` +
+        `╰────────────────────╯`;
 
       return message.reply(msgText, (err, info) => {
         if (err) return;
