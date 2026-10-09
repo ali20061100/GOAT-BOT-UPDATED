@@ -6,7 +6,7 @@ module.exports = {
 		name: "admin",
 		aliases: ["operator"],
 		version: "3.0",
-		author: "xalman",
+		author: "Ali",
 		countDown: 5,
 		role: 0,
 		shortDescription: { en: "Operator system" },
