@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "leave",
 		version: "1.8",
-		author: "NTKhang|| modified by xalman",
+		author: "NTKhang|| modified by Ali",
 		category: "events"
 	},
 
@@ -17,7 +17,7 @@ module.exports = {
 			session4: "evening",
 			leaveType1: "left",
 			leaveType2: "was kicked from",
-			defaultLeaveMessage: "{userName} {type} the group"
+			defaultLeaveMessage: "{userName} {type} পছন্দের ফুল বেলি লিভ নিলি তোর নানীরে খেলি"
 		}
 	},
 
