@@ -35,7 +35,7 @@ module.exports = {
     name: "owner",
     aliases: ["admininfo", "info", "ownerinfo"],
     version: "3.0",
-    author: "xalman",
+    author: "Ali",
     countDown: 5,
     role: 0,
     shortDescription: { en: "Show owner information" },
@@ -45,13 +45,13 @@ module.exports = {
 
   onStart: async function ({ api, event, message }) {
 
-    const ownerName = "Negative Xalman";
-    const ownerAge = "18";
-    const fbName = "Maybe NX";
-    const messenger = "https://www.facebook.com/xalman.dev";
-    const whatsapp = "https://wa.me/qr/2SDY4QQTMJR7H1";
-    const telegram = "@Negativexalman";
-    const address = "Narsingdi, Dhaka, Bangladesh";
+    const ownerName = "Negative Ali";
+    const ownerAge = "20";
+    const fbName = "Àlï Àkbàr Roku";
+    const messenger = "https://www.facebook.com/share/1HYx2UqKSA/";
+    const whatsapp = "01749973704";
+    const telegram = "@Ali exe⁷";
+    const address = "Dinajpur, Dhaka, Bangladesh";
     const religion = "Islam";
     const apiServer = await getApiBaseUrl();
     const relationship = "Single";
