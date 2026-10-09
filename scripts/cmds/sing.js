@@ -36,7 +36,7 @@ module.exports = {
   config: {
     name: "sing",
     version: "3.5",
-    author: "xalman",
+    author: "Ali",
     countDown: 5,
     role: 0,
     shortDescription: "Search or download MP3",
