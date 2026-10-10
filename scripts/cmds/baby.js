@@ -83,13 +83,13 @@ async function sendAttachmentReply(api, event) {
 }
 
 module.exports.config = {
-    name: "baby",
+    name: "baby","Ayra","অনন্যা","jannat",
     aliases: ["bby"],
     version: "11.1",
     author: "Ali",
     countDown: 0,
     role: 0,
-    description: "api by dipto || aryan",
+    description: "api by dipto || Ali",
     category: "BOX CHAT",
     guide: {
         en: "{pn} [anyMessage] OR\nteach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR\nteach react [YourMessage] - [react1], [react2]... OR\nteach amar [YourMessage] - [reply] OR\nteach sticker - [Reply1], [Reply2]... OR\nteach picture - [Reply1], [Reply2]... OR\nremove [YourMessage] OR\nrm [YourMessage] - [indexNumber] OR\nedit [YourMessage] - [NewReply] OR\nmsg [YourMessage] OR\nlist OR\nlist all"
@@ -264,9 +264,9 @@ module.exports.onChat = async ({ api, event, usersData }) => {
         if (!arr) {
             const baseReplies = [
                 "আমাকে না ডেকে আমার বস Ali কে ডাক-🤦🏻","আপনার যদি পার্সোনাল বেবি না থাকে আমার বস আলীর সাথে প্রেম করুন🌚",
-                "ডিসটার্ব করিস বস আলীর মাথা টিপে দেই-🌚💋", "এত ডাকিস না এমন থাপ্পর দিমু পেন্টে মুইতা দিবি-😾👋🏻", "ফুল প্রেমি হ্ঁহ্ঁহ্ঁহ্ঁ আমার বস Alir মতো🫠🙌🏻", "আমার এডমিনের সাথে প্রেম করলে দশ টাকা দিমু🌚",
+                "ডিসটার্ব করিস বস আলীর মাথা টিপে দেই-🌚💋", "আয়রা,অনন্যা,জান্নাত তোরা কি ভালো হবি না-😾👋🏻", "ফুল প্রেমি হ্ঁহ্ঁহ্ঁহ্ঁ আমার বস Alir মতো🫠🙌🏻", "আমার আলীবসের সাথে প্রেম করলে দশ টাকা দিমু🌚",
                  "পিনিক ধরেছে যখন বটকে না ডেকে লেবু খান তখন🍋🐸",  "আজকে আমার মন ভালো নেই 🫩🙈",
-                "বেবি না ডাইকা আমার বস আলীকে গার্লফ্রেন্ড খুজে দে-🙃🫶🏻", "ডাকিস না তারেক জিয়ার সাথে মিটিংয়ে আছি 😒🖐🏻","Assalamualaikum ❤️‍🩹🫶🏻"
+                "বেবি না ডাইকা আমার বস আলীকে গার্লফ্রেন্ড খুজে দে-🙃🫶🏻", "ডাকিস না আলী বসের সাথে মিটিংয়ে আছি 😒🖐🏻","Assalamualaikum ❤️‍🩹🫶🏻"
             ];
             const mentionObj = utils.realMention(senderName, uid, baseReplies[Math.floor(Math.random() * baseReplies.length)]);
             return await api.sendMessage(mentionObj, event.threadID, (error, info) => {
