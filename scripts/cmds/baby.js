@@ -59,7 +59,7 @@ const utils = {
     }
 };
 
-const triggers = ["baby", "bby", "bot", "jan", "babu", "janu", "suna", "sara", "mikasa", "hinata", "xadika", "alya"];
+const triggers = ["baby", "bby", "bot", "jan", "babu", "janu", "suna", "sara", "Ayra", "hinata", "Jannat", "অনন্যা"];
 
 async function sendAttachmentReply(api, event) {
     const attType = event.attachments?.[0]?.type;
@@ -83,8 +83,8 @@ async function sendAttachmentReply(api, event) {
 }
 
 module.exports.config = {
-    name: "baby","Ayra","Jannat","অনন্যা",
-    aliases: ["bby",],["Ayra"],["Jannat"],["অনন্যা"],
+    name: "baby",
+    aliases: ["bby",],
     version: "11.1",
     author: "Ali",
     countDown: 0,
