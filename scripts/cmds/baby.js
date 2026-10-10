@@ -83,8 +83,8 @@ async function sendAttachmentReply(api, event) {
 }
 
 module.exports.config = {
-    name: "baby","Ayra","অনন্যা","jannat",
-    aliases: ["bby"],
+    name: "baby","Ayra","Jannat","অনন্যা",
+    aliases: ["bby",],["Ayra"],["Jannat"],["অনন্যা"],
     version: "11.1",
     author: "Ali",
     countDown: 0,
