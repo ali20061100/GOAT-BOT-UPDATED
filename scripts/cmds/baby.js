@@ -59,7 +59,7 @@ const utils = {
     }
 };
 
-const triggers = ["baby", "bby", "bot", "jan", "babu", "janu", "suna", "sara", "Ayra", "hinata", "Jannat", "অনন্যা"];
+const triggers = ["baby", "bby", "bot", "jan", "babu", "janu", "suna", "Esrat", "আয়রা", "hinata", "জান্নাত", "অনন্যা"];
 
 async function sendAttachmentReply(api, event) {
     const attType = event.attachments?.[0]?.type;
