@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const API_CONFIG_URL = "https://raw.githubusercontent.com/goatbotnx/xalmanx210/refs/heads/main/apis.json";
-const API_KEY = "xalman-hub";
+const API_KEY = "Ali-hub";
 let apiBaseUrl = null;
 let apiConfigRequest = null;
 
@@ -36,7 +36,7 @@ module.exports = {
     name: "ytb",
     aliases: ["youtube"],
     version: "10.0",
-    author: "xalman",
+    author: "Ali",
     countDown: 5,
     role: 0,
     shortDescription: "YouTube Audio/Video Downloader with fast stream response",
